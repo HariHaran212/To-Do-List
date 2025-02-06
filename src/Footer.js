@@ -5,7 +5,6 @@ const Footer = ({length}) => {
   return (
     <footer>
       <p>{length}</p>
-      {/* <p>Copyright &copy; {year.getFullYear()}</p> */}
     </footer>
   )
 }

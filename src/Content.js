@@ -1,6 +1,5 @@
 import React from "react"
 import ItemsList from "./ItemsList"
-// import "./index.css"
 
 function Content({items, handleCheck, handleDelete}) {
     return(

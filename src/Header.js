@@ -10,11 +10,4 @@ const Header = ({title = "To Do List"}) => {
   )
 }
 
-// Depricated :
-// Header.defaultProps = {
-//   title: "To Do List 2"
-// }
-
 export default Header
-
-// rafce
