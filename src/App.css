@@ -15,7 +15,7 @@ header h1{
 
 main {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   /* flex-grow: 0; */
   justify-content: center;
@@ -37,7 +37,7 @@ footer {
   display: flex;
   text-align: center;
   /* justify-content: flex-start; */
-  /* align-items: center; */
+  align-items: center;
   padding: 0.5rem 0 0.5rem 0.5rem;
   margin: 0.25rem 0;
   background-color: #eee;
