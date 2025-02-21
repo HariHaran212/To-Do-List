@@ -3,14 +3,19 @@ import Content from "./Content"
 import Footer from "./Footer"
 import AddItem from "./AddItem"
 import SearchItem from './SearchItem'
+
 import {useEffect, useState} from 'react'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import "bootstrap-icons/font/bootstrap-icons.css";
-import '@fontsource/poppins';  // Defaults to 400 weight (regular)
-import '@fontsource/poppins/400.css'; // Import specific weight
-import '@fontsource/poppins/600.css'; // Import bold weight
+
+import '@fontsource/poppins';
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/600.css';
+
 import './App.css'
+
 import apiRequest from "./apiRequest"
 
 
