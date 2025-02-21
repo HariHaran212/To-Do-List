@@ -21,7 +21,7 @@ import apiRequest from "./apiRequest"
 
 function App() {
   
-  const API_URL = "http://localhost:3500/items"
+  const API_URL = "https://to-do-list-db-server.onrender.com/items"
   const [items, setItems] = useState([])
   const [newItem, setNewItem] = useState('')
   const [search, setSearch] = useState('')
